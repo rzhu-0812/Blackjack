@@ -218,7 +218,7 @@ def user_decision(wager, hand, balance, player_numeric_hand, dealer_numeric_hand
   while True:
     display_info(wager, balance, player_numeric_hand, dealer_numeric_hand, player_cards, dealer_cards)
     
-    choice = input(f"\nWhould you like to {red}hit (h){reset} or {green}stand (s){reset}\n").lower().strip()
+    choice = input(f"\nWould you like to {red}hit (h){reset} or {green}stand (s){reset}\n").lower().strip()
 
     if choice.isalpha():
       if choice == "h":
